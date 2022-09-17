@@ -1,5 +1,9 @@
 # gb_habr
 
+# Структура проекта:
+- django/articles/templates: html шаблоны дизайна
+- django/: приложение
+
 # Stack:
 - Python 3.9
 - Django 4.1.1

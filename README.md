@@ -11,7 +11,7 @@
 - Postgres 14
 
 # Установка:
-1. В директории `django/habr/` копируем файл `example.settings.py` в `settings.py` и меняем в нём настройки БД на своё окружение. 
+1. В директории `django/config/` копируем файл `example.settings.py` в `settings.py` и меняем в нём настройки БД на своё окружение. 
 2. Переходим в директорию django.
 3. Устанавливаем зависимости Python:  
 `pip install -r requirements.txt`

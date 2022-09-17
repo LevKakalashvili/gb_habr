@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'habr.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'gb_habr',
         'USER': 'postgres',
         'PASSWORD': 'postgres',

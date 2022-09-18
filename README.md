@@ -3,6 +3,7 @@
 # Структура проекта:
 - django/articles/templates: html шаблоны дизайна
 - django/: приложение
+- django/config/.env: пороли и явки
 
 # Stack:
 - Python 3.9
@@ -11,7 +12,7 @@
 - Postgres 14
 
 # Установка:
-1. В директории `django/config/` копируем файл `example.settings.py` в `settings.py` и меняем в нём настройки БД на своё окружение. 
+1. В директории `django/config/` файл ".env" меняем настройки БД на своё окружение. 
 2. Переходим в директорию django.
 3. Устанавливаем зависимости Python:  
 `pip install -r requirements.txt`

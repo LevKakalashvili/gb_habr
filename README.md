@@ -7,7 +7,7 @@
 # Stack:
 - Python 3.9
 - Django 4.1.1
-- Bootstrap
+- Bootstrap 5
 - Postgres 14
 
 # Установка:

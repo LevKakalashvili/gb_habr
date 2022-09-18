@@ -7,14 +7,7 @@ from .models import Article
 def home_view(request):
     # Ищем все статьи со статусом 2 (Опубликовано) и сортируем по дате создания.
     articles = Article.objects.filter(status=2).order_by('created_at')
-
-    # Эту строку раскомментить, когда будет готов шаблон.
-    # return render(request, 'articles_template.html', {'articles': articles})
-    # А эту удалить:
-    response = HttpResponse()
-    for article in articles:
-        response.write(f'''<a href="{reverse('article', args=[article.id])}">{article.title}</a><br />''')
-    return response
+    return render(request, 'home.html', {'articles': articles})
 
 def article_view(request, id):
     # Ищем статью по id со статусом 2 (Опубликовано).
